@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+    "editor.formatOnSave": true,
+    "prettier.eslintIntegration": true,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "javascript.format.semicolons": "remove"
+}
